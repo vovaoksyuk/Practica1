@@ -41,9 +41,10 @@ public class Task2 {
         return a*b;
      }
      static int div (int a,int b){
-        if (b<0) {
+        if (b==0) {
             System.out.println("Введите другое значение");
         }
+        
         return a/b;
      }
 }
